@@ -36,7 +36,7 @@ export const useScenarioResultPostHook = (props: any) => {
       .catch((error) => {
         if (error.message === "Request timeout") {
           console.log("타임아웃으로 인해 기본 점수 부여");
-          const defaultScore = Math.floor(Math.random() * 11) + 70;
+          const defaultScore = Math.floor(Math.random() * 16) + 70;
           setEachScore(defaultScore);
           setTotalScoreList(defaultScore);
           setTotalSCriptList(props);

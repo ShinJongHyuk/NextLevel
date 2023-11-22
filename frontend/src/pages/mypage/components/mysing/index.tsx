@@ -43,7 +43,7 @@ const MySing = (props: any) => {
                 <StyledTtile>
                   {clip.title} - {clip.artist}
                 </StyledTtile>
-                <StyledScore>{clip.score}/30점🎉</StyledScore>
+                <StyledScore>{clip.score}/30🎉</StyledScore>
               </StyledImageBox>
             </StyledClipBox>
           );
